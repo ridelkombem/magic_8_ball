@@ -3,12 +3,12 @@ import 'package:flutter/material.dart';
 
 void main() => runApp(
       const MaterialApp(
-        home: BallPage(),
+        home: MyApp(),
       ),
     );
 
-class BallPage extends StatelessWidget {
-  const BallPage({Key? key}) : super(key: key);
+class MyApp extends StatelessWidget {
+  const MyApp({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
